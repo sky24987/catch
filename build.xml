@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project catch12345">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Users/Administrator/Desktop/1234.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="MainCore.catch12345"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="D:/Users/Administrator/workspace/catch12345/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/htmlparser.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/httpclient-4.0.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/httpcore-4.0.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/apache-mime4j-0.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/commons-codec-1.3.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/commons-logging-1.1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/httpmime-4.0.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/commons-httpclient.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/filterbuilder.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/htmllexer.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/sitecapturer.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/thumbelina.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/junit.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/sax2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/jtds-1.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/log4j-1.2.15.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/watijcom.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/bsh.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/comfyj-2.4.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/jexplorer-1.9.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/jniwrap-3.6.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/mshtml.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/nekohtml.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/resolver.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/xml-apis.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/serializer.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/winpack-3.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/xercesImpl.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/xalan.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/watij.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/ISNetworksProvider.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/jcifs-1.1.11.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/opencsv-2.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Users/Administrator/workspace/catch12345/lib/ojdbc14.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Program Files/eclipse/plugins/org.apache.axis_1.4.0.v201005080400/lib/axis.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Program Files/eclipse/plugins/org.apache.commons.discovery_0.2.0.v201004190315/lib/commons-discovery-0.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Program Files/eclipse/plugins/javax.xml.rpc_1.1.0.v201005080400/lib/jaxrpc.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Program Files/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/lib/saaj.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Program Files/eclipse/plugins/javax.wsdl_1.6.2.v201005080631.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="D:/Program Files/eclipse/plugins/org.apache.commons.logging_1.0.4.v201005080501.jar"/>
+        </jar>
+    </target>
+</project>
