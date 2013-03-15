@@ -20,7 +20,7 @@ public class DaoManager {
 	public void initConnection(){//��ʼ����ݿ�����
 		try{
 			Class.forName("net.sourceforge.jtds.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:jtds:sqlserver://19.127.9.105/chinaweal","sa","pjxh1224");
+			conn = DriverManager.getConnection("jdbc:jtds:sqlserver://p/db","sa","");
 			
 		}
 		catch(Exception ex){ex.printStackTrace();}
